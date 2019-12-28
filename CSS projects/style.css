@@ -1,0 +1,53 @@
+
+body { 
+    background: whitesmoke;
+}
+/* We have some basic selectors,those are the one you use to choose a specific thing inside a html file to style it,such as elements,classes,ids,universal...those are basic selectors */
+/* Universal selector is a *,it will select every element in the html file */
+h3 { /* Element selector,the element here is h3 */
+    color:red;
+}
+#header { /* ID selector,CSS will style a specific thing that has a "header" as an ID */
+    color: rgb(0, 255, 255);
+}
+.example { /* Class selector,CSS will style something that has "example" as a class */
+    color: green;
+}
+.bla {
+    color: yellow;
+}
+#blah {
+    color: orange;  
+}
+/* ID selectors will override class selectors*/
+#idexample {
+    color: black;
+}
+#pseudoselector:hover{ /* Pseudoselectors are the things behind a selector,followed with a colon,it will add a specific effect or help specify a thing in the html file and style it*/
+    color: red;
+}
+#jslink:link{
+    color:blue;
+}
+#jslink:visited{
+    color:red;
+}
+/* There are many pseudoselectors,like link,visted,first-child,only-child,bla bla and many more,so be sure you know what pseudoselector you want to use with certain selector */ 
+/* There are many advanced selectors,so I will divide them into 2 part:
+Combinators & Attribute selectors */
+/* There are 4 types of combinator selector:
+Descendant selector (bla bla)
+Child selector (bla > bla)
+Adjacent sibling selector (bla + bla)
+General sibling selector (bla ~ bla)  */
+ul>li a{
+    color: darkcyan;
+}
+ol li p {
+    font-size: 120%;
+    color:darkslateblue;
+}
+h1::first-letter{
+    color:blue;
+}
+

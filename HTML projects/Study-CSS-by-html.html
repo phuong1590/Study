@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS projects/style.css">
+        <!--rel="stylesheet" saying we are linking a style sheet and type="text/css" simply specify that we are linking a css style sheet-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Another awesome website">
+        <title>Study CSS by html</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to study CSS by html,you should have known a little bit about html first in order to learn CSS effectively.So I suggest checking out my study html by html course,a.k.a a html file that you can get for free from me!</h1>
+            <p><b>No further redo,let's dive in,bellow are some examples,you should check out the actual file in order to study,I might add in some image later showing you stuff in the website if you are too lazy to download and read my code.</b></p>
+            <h3>This h3 text will be styled red.</h3>
+            <h3 id="header">This is also another h1 text but I will be able to style it differently thanks to the id CSS selector!And this will be styled cyan.</h3>
+            <h4>This text won't be styled and it will stay black.</h4>
+            <h5 class="example">And this h5 will be styled green,but by another selector</h5>
+            <p class="bla" id="blah">Here we have an example that ids will override classes</p>
+            <p style="color:aquamarine" id="idexample"><b>But there is a stronger selector,it's the incline styling,which means we put style="CSS atributes" and it will override anything in the CSS file</b></p>
+            <p>Thanks to the element selector of CSS,we can specificly style differents things depends on their elements,their classes,their ids...</p>
+            <hr/>
+            <p id="pseudoselector">The fuck is pseudoselector?Why don't you try to put your mouse on this text?It will turn red,that's what one of those pseudoselectors do.</p>
+        </header>
+        <main>
+            <p>Pseudoselectors are really complicated but they can be put in to good use such as let you know if you have visited a website linked by the website you were on or just colored differently when your mouse hover over the paragraph like the upper one or like the lower one,which is the link I talked to you before.</p>
+            <a id="jslink" href="https://phuong1590.github.io/Welcome.js/">Please help yourself to notice that when you have already clicked this link,this line will turn red,not blue like the first time you see it</a>
+            <p><b>Here are the links for you to figure out CSS selectors by yourself!</b></p>
+            <ul>
+                <li>
+                    <a href="https://www.w3schools.com/css/css_selectors.asp">All basic selectors.</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/css/css_combinators.asp">All the CSS combinators.</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">All pseudo-class selectors.</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/css/css_pseudo_elements.asp">All pseudo-element selectors.</a> 
+                </li>
+            </ul>
+            <p><b>Combinators:</b></p>
+            <ol>
+                <li>
+                    <p>Adjacent sibling selectors are the selector that allows you to style any specific elements after a specific element.For example:You can style any "a" tag after a "h1" tag...So the first element go first,followed by a simple "+" and then the elements you want to style.</p> 
+                </li>
+                <li>
+                    <p>General sibling selectors,the same idea but the elements have to be shared by the same parents.For example:Any "button" you wanted to style after a "textarea" must have the same parents,maybe a "form" tag.</p>
+                </li>
+                <li>
+                    <p>Child selectors will style a direct element as a child of another specified element.For example:You can use the Child selector when you want to style your "li",which is having an "ul"/"ol" as it's parents directly.</p>
+                </li>
+                <li>
+                    <p>Descendant selectors will style any element of any specific element even though they don't have a directly connection.For example:An "ol" contains a "li" and an "ul" that also contains another "li",when you style "li" element while having "ol" as the specific element,both of them will be style.Because eventually,the 2nd "li" was propagated by the "ol".</p>
+                </li>
+            </ol>
+            <p>Here come the Atribute selectors!</p>
+
+
+            
+        </main>
+        <footer>
+            <p><b>My social media:</b></p>
+                <div>
+                    <a style="color:royalblue" href="https://www.facebook.com/profile.php?id=100008527697036"><strong>Facebook
+                    </strong></a>
+                </div>
+                <div>
+                    <a style="color:red" href="https://www.youtube.com/channel/UCcmRGQ35Waswxm2_2UHDxQw"><strong>YouTube</strong></a>
+                </div>
+                <div>
+                    <a style=color:salmon href="https://www.instagram.com/tough_burger/"><strong>Instagram</strong></a>
+                </div>
+                <div>
+                    <a style="color:darkslateblue" href="https://steamcommunity.com/id/ttp163/"><strong>Steam</strong></a>
+                </div>
+        </footer>
+    </body>
+</html>

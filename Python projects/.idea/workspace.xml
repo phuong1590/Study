@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c9972f6-b76e-43e4-81df-b4107a30625e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1TdB20rzi2nXO6q0VcMdgZUUXzW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Hello World" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello World.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Hello World" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c9972f6-b76e-43e4-81df-b4107a30625e" name="Default Changelist" comment="" />
+      <created>1573779880832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573779880832</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="335" y="23" key="#Hello_World" timestamp="1576929504676">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="335" y="23" key="#Hello_World/0.23.1280.716@0.23.1280.716" timestamp="1576929504676" />
+    <state x="317" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1576929429361">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="317" y="213" key="com.intellij.ide.util.TipDialog/0.23.1280.716@0.23.1280.716" timestamp="1576929429361" />
+    <state x="305" y="63" key="search.everywhere.popup" timestamp="1576929439299">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="305" y="63" key="search.everywhere.popup/0.23.1280.716@0.23.1280.716" timestamp="1576929439299" />
+  </component>
+</project>

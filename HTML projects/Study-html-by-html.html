@@ -1,0 +1,222 @@
+<!--Holy shit why are there so much comments,you asked?Well the purpose of this html file is for everyone to learn the basic of html,so I have written down everything for a total noob to learn.And read about meta at the footer part!-->
+<!DOCTYPE html> <!--We use these symbols for notes(these are called comments),not // like in C++.-->
+<!--Here we use < and > to start and end a tag,also semi-colons are not necessary.--> 
+<html lang="en"> <!--Now we need 2 more set of tags,the head tags and the body tags,these are 2 basic sections.-->
+    <head> <!--The head of the doc defines the data about the doc,import resources into the html files,WHICH MEANS WE CAN LINKS HTML FILES WITH OTHER FILES,it's like the settings of the html file,where the html contents gonna go.-->
+        <title> Ryan's study HTML website!</title> <!--This will be the title of the website instead of index.html-->
+        <meta charset:="UTF-8"> <!--Here I defines meta tags,which defines information about our html files,aka giving us metadata.-->
+        <meta name="description" content="Awesome website"> <!--This is the meta description tag,it helps web browser to display information on the search pages-->
+        <!--The atributes/properties inside the tag are the same as parameter,they give the tag information so they can do their jobs.-->        
+    </head> 
+    <body style="background-color:lavender";> <!--The body it's like the content of the html files,this part is gonna show up or rendered by the browser.-->
+        <!--The body should be containing the header(navigations to other websites,logos,names),the main(content!),footer(navigation about us,branding...) of the website.-->
+        <header>
+            <nav>
+            <a style="color:royalblue;"href="hello.html">This is my first html website beside the one you are looking at now.</a>
+            <a style="color:royalblue;"href="https://phuong1590.github.io/Welcome.js/"><h1><b>Here is my first open source presentation using JavaScript.</b></h1></a>           
+            </nav>
+            <!--To make a new tab while a user click the link,add target="_blank" at the end,after the href.-->                
+            <h1 style="color:hotpink";>Hello everyone,this is the header,the tag I used was h1,we can use h1 to h6 heading tags,the bigger the number the smaller the size will be.</h1>  <!--Cool idea to representing the website:<h1>
+                        <h2>
+                            <h3>
+                        <h2>-->
+                <h6>Another header for comparison.</h6>
+                <br/> 
+        </header>
+        <hr/>
+        <main>
+            <article>
+                <section><h2><b><i>This is section 1,first article:</i></b></h2>
+                <p><b><i>This</i></b>.The word This was covered by 2 tags,<b>b</b>old and <i>i</i>talic.</p> <!--Some tags can be use together,such as b-bold and i-italic,but they needs the end tags because they need some text in between the tags like others.-->
+                <!--Some won't,those are single tags.For example,the horizontal rule <hr/> and the break <br/> doesn't need stuff inside.-->
+                <p style="color:#00FFFF;background-color:black;">You can put atributes/properties/parameter into tags to style and color them.</p>
+                </section>
+                <!--html doesn't care how much space you leave between tags,it just read the tags,so in order to make space,we use break,in order to separate articles,we use horizontal rule.-->
+                <aside style="color:red">Please use tags to layout your website,for yourself and other people.</aside>
+                <section>Here is how to put images on a website:
+                    <hr/>
+                    <p>Did you know that you can use images as a link to another image or video???Click the 1st image!Do not click the 3rd image!!!If you wanna relax a little bit,click the 4rd one.To know where I learned all this,watch the entire video down bellow.</p>
+                    <!--We use <img ...> to import images into our websites.Src means source,if you link the URL in the source,html will grab the image from that URL and put it on your website,if you use something in your PC,same.The alt is for a situation that the image can not be loaded by your browser or the owner deleted it on their website.You can also resize the image using width and height.Their units are pixels and it's not a standard unit,the size of it depends on the resolution of your screen.--> 
+                    <!--And you can also choose to set the width or the height,html will automatically do the rest for you,I just don't like that so I kinda measure things and typed in myself.-->
+                    <a href="malaysiatuoilon.mp4">
+                        <img height="609" src="https://www.todaysparent.com/wp-content/uploads/2017/06/when-your-kid-becomes-a-meme-1024x576-1497986561.jpg" alt="Time don't fly sometimes" />
+                    </a>
+                    <img height="609" width="390" src="meme.jpg">
+                    <a href="HoangYenChibi lo ti.mp4">
+                        <img height="609" src="hoangyenchibi.jpg" alt="Hoang Yen Chibi lo ti">
+                    </a>
+                    <a href="biker.mp4">
+                        <img height="609" src="hoplynhungdeohieu.jpg">
+                    </a>
+                    <video height="609" src="superfailman.mp4" loop autoplay muted></video>
+                    <!--If you have a thumbnail use poster=""to use it as a thumbnail.-->
+                    <a href="Babes - (Abigaile Johnson, Dane Cross) - Beyond Innocence.mp4" alt="Abigaile Johnson-Beyond Innocence">
+                    <img width="280" height="609" src="nsfw.png" alt="Not Safe For Work!"> 
+                    </a>
+                    <iframe width="1900" height="1080" src="https://www.youtube-nocookie.com/embed/pQN-pnXPaVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!--HTML allows you to create a list of items,to do that,use <ul> or <ol> tags,ul stands for unordered list,ol for ordered list,ul will appears as dots in front of the items,ol will show you the numbers(default) or letters(type="A/a"),EVEN ROMAN NUMERALS(type="I") depends on the type you put in(as an atribute) so you can do things in order,according to that list.You can defines items for the list using <li></li>,you can put a link,a video,an image in the list.You can also embed a list inside a list,which is really cool.-->
+                        <hr/>
+                        <h1>TO DO LIST:</h1>
+                        <ul>
+                            <li>Thanks Ryan for his amazing work!</li>
+                            <li>Read 50-100 pages of the books you have every single day.</li>
+                                <ol>    
+                                    <li>You don't have to,really.Unless it's a really meaningful and interesting book.</li>
+                                    <li>But you should read books everyday,make it an interest if you can.</li>
+                                </ol>
+                            <li>Have a really nice day!</li>
+                        </ul>
+                        <hr/>
+                        <h1>Here are the languages that I think we should start learning seriously:</h1>
+                        <ol>
+                            <li>C++ or C</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>PHP</li>
+                            <li>Java</li>
+                        </ol>
+                        <p><b>I do think Java is so hard to begin with so learn a language and touch Java after.</b></p> 
+                        <!--Description list,this one is quite unpopular but I wanna show you guys how it works.-->
+                        <h1>My thoughts about them:</h1>
+                        <dl>
+                            <dt>Java</dt> <!--Description term-->
+                            <dd>-Is a really hard language in my opinion</dd> <!--Describe the description term.-->
+                            <dt>Python and JavaScript</dt>
+                            <dd>-These are easier and I suggest starting with them</dd>
+                            <dt>C++</dt>
+                            <dd>-Forced to learn it at school so,why not?</dd>
+                        </dl>   
+                        <!--Tables!Great we got EXCEL all over us again,just like html,tables should have head and body.-->
+                        <table border="2">
+                            <thead><!--Bellow is the caption of the table,inside the table head.-->
+                                <caption><h2>List of books I want you guys to read</h2></caption>
+                                <tr><!--Each tr representing a table row-->
+                                    <th>Titles:</th> <!--These are the header of the data in the table row.-->
+                                    <th>Homo Sapien</th>
+                                    <th>Homo Deus</th>
+                                    <th>The subtle art of not giving a FUCK</th>
+                                    <th>Coffee with Tony</th>
+                                    <th>A street cat named Bob</th>
+                                </tr>
+                            </thead>
+                            <tbody> 
+                                    <tr>
+                                            <th>What there are all about:</th>    
+                                            <td>A book about our history.A Brief History of Mankind</td> <!--Table data-->
+                                            <td>A book about our future.A Brief History of Tomorrow</td>
+                                            <td>A way to change your life.A Counterintuitive Approach to Living a Good Life</td>
+                                            <td>A collection of his most popular Facebook writings</td>
+                                            <td>A perfect way to learn about responability.How one man and his cat found hope on the street</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Author:</th>
+                                            <td colspan="2">Both of them came from the famous historian Yuval Noah Harari.
+                                            </td> <!--Collumn span show you the ammount of collumns the data takes-->
+                                            <td>Mark Manson</td>
+                                            <td>Tony Morning</td>
+                                            <td>James Bowen</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Reasons:</th>
+                                            <td colspan="2">He helps you to see the world under the view of the historian,make you feels better and appreciate your live and others by seeing how the world have become and what the future will be.He will change your mind.Read this and become knowledgeable.</td>
+                                            <td>Control your life,this teaches you not to be an idiot and bow/accept everyhing thrown at you!Be strong,be relentless,be indefatigable.</td>
+                                            <td>Helps you to behave like a winner,talk like one,live like one,be one.</td>
+                                            <td>My first book.It's story about a homeless man make a living by singing with his guitar at the park.One day he suddenly met a cat,he named him Bob and Bob changed his life.He become responsible,thoughtful.</td>
+                                        </tr>
+                            </tbody>
+                        </table>
+                </section>        
+                <!--Let's talk display types,there are 2 main display types,div and span,these are like containers,so div basically takes up the entire width of the website,thats what block element do and span are inline elements,they take the exact amount of space they need.-->
+                <section>
+                    <p>Let me show you what I meant,this is a paragraph</p>
+                    <p>This is also a paragraph and you won't see these paragraphs on the same line</p> 
+                    <p>Because they are block elements</p>
+
+                    <a href="https://www.youtube.com/watch?v=U_qbca2TnbI" style="color:aquamarine">But these links will,since they are incline elements</a>
+                    <!--Put styles after the href-->
+                    <a href="https://www.youtube.com/watch?v=1SJLvvrXrls" style="color:red";><b>Don't worry they are all music links from Youtube</b></a>
+                    <br/> 
+                    <span>This is what span can do.</span>
+                    <span>It puts block elements together because it's an incline element container!</span>
+                    <div>
+                    <a href="https://www.youtube.com/watch?v=tmj4MxMiScg" style="color:rgb(0, 47, 255)";>And div do the opposite.</a> </div>
+                    <div>                   
+                    <a href="https://www.youtube.com/watch?v=H4Fdjp1jNZM" style="color:rgb(0, 47, 255)">It separate 2 incline elements because it's a block container</a>
+                    </div>  
+                </section>  
+                <!--You need JavaScript to interact with user,you can only defines the things that help you interact with users like search boxes,text boxes.-->
+                <section>
+                    <h3>Please type in your made up username and password so you can see what I did to these input boxes.</h3>
+                    <form><!--A wrapper tag for user input,which gives input data to your server and etc...-->
+                        <label>Username:
+                            <input type="text" value="Enter your username" />
+                        </label>
+                         <!--Value will put an actual text in the boxes,but placeholder will put a gray text inside telling the user what to do--> 
+                         <div>
+                            <label>Password:
+                                <input type="password" placeholder="Type in your password" />
+                            </label>
+                        </diV>
+                        <div>
+                            <label>Email:
+                                <input type="email" placeholder="Please type in your email">
+                            </label>
+                        </div>   
+                        <!--Unlike those little boxes.The text area is bigger can be resizeable.You can specify the rows,collumn of the box.--> 
+                        <textarea rows="7" cols="15" placeholder="Enter something..."> 
+                            Why are you reading this instead of the things in the actual html file!
+                        </textarea>
+                        <div>
+                            <label>Date: <!--Show "Date:" as a label beside your input-->
+                                <input type="date"/> 
+                            </label>      
+                            <label>Slide:        
+                                <input type="range"/>
+                            </label>
+                            <input type="file"/> <!--Without JS the user can't upload the files,so yeah.-->
+                            <input type="button"/> 
+                            <input name="I'm so gay" type="checkbox"/> <!--You can check as many boxes as you want,even if they have the same name.-->
+                            <input name="I'm quite gay" type="checkbox"/>
+                            <input name="I'm so gay" type="checkbox"/>
+                            <input name="I'm gay" type="radio"/><!--You can't check 2 same radios because they have the same name.-->
+                            <input name="I'm not gay" type="radio"/>
+                            <input name="I'm gay" type="radio"/>
+                            <input type="submit"/>
+                            <select>
+                                <option value="Gay">I'm gay</option>
+                                <option value="notGay">I'm not gay</option>
+                            </select>
+                        </div>
+                    </form>
+                    <p style="color:red">You can somehow click submit to get back to the top,which is weird,but that's because when you submit your data,the page get reloaded,so you will get back to the top of this website</p>
+                </section>
+                <section> <!--iFrames,you can embed a website inside your website,HOW COOL IS THAT!?-->
+                    <h1 style="color:gold;background-color:black">What's bellow is called iFrame,it helps you embed an entire website to yours,which is really,really cool,here is my open source presentation embed in my website:</h1>   
+                    <iframe width="1900" height="1080" frameborder="0" src="https://phuong1590.github.io/Welcome.js/">Sorry!You browser can't view iFrame.</iframe>
+                <!--Big websites like Facebook,Google,Amazon,Youtube they have a setting that don't allow their website to become iFrame because iFrame is so cool,people would thought that they where on the actual website,which they weren't and bad things happens.--></section>
+            </article>
+        </main>
+        <footer>
+            <!--I have written so much comments on the top so their is no space to descripe meta data,at the top.So here we go!
+            Meta data are like,data about data,so that's why it's on the top of the html files.It provides information about the data and help browser's search engine while it do it's research.
+            <meta charset="UTF-8"> This is the character set of the file.
+            <meta name="description" content="Awesome website"> Now "description" is the name of the meta data,it helps describing to the browsers search engine,that this meta data describes the website by the words or plain text in the content part.And remember,don't overwrite your content,it will lower your web rating and my destroy your website since no one will give a shit about it,not even the search engine! 
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            This meta data helps showing our website on devices as good as it can,so when you are using a phone,the website will not appear as it was on the Desktop.-->
+                <p>My social media:</p>
+                <div>
+                    <a style="color:royalblue" href="https://www.facebook.com/profile.php?id=100008527697036"><strong>Facebook
+                    </strong></a>
+                </div>
+                <div>
+                    <a style="color:red" href="https://www.youtube.com/channel/UCcmRGQ35Waswxm2_2UHDxQw"><strong>YouTube</strong></a>
+                </div>
+                <div>
+                    <a style=color:salmon href="https://www.instagram.com/tough_burger/"><strong>Instagram</strong></a>
+                </div>
+                <div>
+                    <a style="color:darkslateblue" href="https://steamcommunity.com/id/ttp163/"><strong>Steam</strong></a>
+                </div>
+        </footer>
+    </body>
+</html> <!--All the tags inside a set of tags should be indensed-->          
