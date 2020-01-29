@@ -1,0 +1,2 @@
+# Study
+These are files I created when I first started learning programming languages with my 2019 8th quad-core i5,8gb of ram and only 128gb of ssd.I put that there so it will bring up memories in the future,when I'm old and successful,boring with a family that I don't know what for....Or when I'm old as fuck and not success at all but I still wanna look at the past,where I was taken care off by my lovely parents.
